@@ -20,15 +20,16 @@ let list = document.getElementById("list")
 function show(){
   
   ggg.style.display="inline-block"
-  ggg.style.marginRight ="10px"
+   ggg.style.marginRight ="10px"
+   ggg.style.padding ="5px"
   gga.style.fontSize ="10px"
   gga.style.display ="flex"
  
 
   li.style.display="inline-block"
-  li.style.marginRight ="10px"
+  // li.style.marginRight ="10px"
   ls.style.display="inline-block"
-  ls.style.marginRight ="10px"
+ 
   but.style.display="none"
  
  
