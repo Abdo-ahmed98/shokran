@@ -11,17 +11,28 @@ function gget(){
 let soii=document.querySelector(".soi")
 let but =document.getElementById("but")
 let li =document.querySelectorAll(".li")[0]
+let ls =document.querySelectorAll(".li")[1]
+let lss =document.querySelectorAll(".li")[2]
+let ggg =document.querySelector(".get")
+let gga =document.querySelector(".get a")
 
 let list = document.getElementById("list")
 function show(){
-  for(let i=0 ; i<li.length;i++){
-    console.log(li)
+  
+  ggg.style.display="inline-block"
+  ggg.style.marginRight ="10px"
+  gga.style.fontSize ="10px"
+  gga.style.display ="flex"
+ 
 
-  }
-  li.style.display="block"
+  li.style.display="inline-block"
+  li.style.marginRight ="10px"
+  ls.style.display="inline-block"
+  ls.style.marginRight ="10px"
+  but.style.display="none"
  
  
- 
+  
 
 }
 console.log(li)
